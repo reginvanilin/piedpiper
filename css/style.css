@@ -6,6 +6,10 @@
   font-style: normal;
   font-weight: 500;
 }
+i {
+    font-style: italic;
+    font-weight: inherit;
+}
 .header {
     height: 84px;
     background: #007765;
@@ -13,8 +17,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 250px;
+    padding-right: 200px;
 }
 /* @media screen and (max-width: 768px) {
     .header {
@@ -22,69 +26,221 @@
         padding-left: 20px;
     }
 } */
-.header-wrapper {
  
-}
 .header-logo {
+    
+
     
 }
 .header-logo-img {
 }
 .header-links {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #FFFFFF;
+    line-height: 28px;
+    cursor: pointer;
 }
-.header-links-link {
+.header-links-link:hover {
+    color: rgb(164, 187, 184);
+   
 }
 .header-links-divider {
 }
 .jumbotron {
+    height: 403px;
+    background-image: url("../img/jumbotron.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .jumbotron-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    color: #FFFFFF;
 }
 .problem {
+    height: 719px;
+    background: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .problem-title {
+    margin-top: 48px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    color: #007765;
+}
+.problem-text-container {
+    margin-top: 16px;
+    width: 1110px;
 }
 .problem-text {
+    margin-bottom: 48px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    color: #000000;
 }
 .hero {
+    height: 483px;
+    background-image: url(../img/hero.png);
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
 }
 .hero-title {
+    width: 893px;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    color: #FFFFFF;
+    text-align: center;
 }
 .ppc {
+    height: 604px;background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+
 }
 .ppc-logo {
 }
 .ppc-logo-img {
 }
 .ppc-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .ppc-content-title {
+    margin-top: 48px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    color: #007765;
+    text-shadow: 1px 0 1px #000,
+    0 1px 1px #000,
+    -1px 0 1px #000,
+    0 -1px 1px #000;
 }
 .ppc-content-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.ppc-text-logo{
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1110px;
 }
 .ppc-content-text-first {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 32px;
+    width: 930px;
+    margin-left: 48px;
+
 }
 .ppc-content-text-second {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    color: #000000;
+    line-height: 37px;
+    width: 1110px;
+    margin-bottom: 35px;
 }
 .team {
+    height: 845px;
+    background: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 .team-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    color: #007765;
+   
+
 }
 .team-cards {
+    max-width: 1110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 32px;
+    flex-wrap: wrap;
+
 }
 .team-cards-card {
+    width: 350px;
+    height: 283px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
 }
 .team-cards-card-images {
 }
 .team-cards-card-images-img {
 }
 .team-cards-card-text {
+    margin-top: 12px;
+    text-align: center;
+    
 }
 .team-cards-card-text-title {
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+color: #007765;
 }
 .team-cards-card-text-subtitle {
+    font-family: Roboto;
+font-style: italic;
+font-weight: normal;
+font-size: 18px;
+color: #000000;
 }
 .footer {
+    height: 176px;
+    background: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .footer-text {
+    width: 540px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+    
 }
