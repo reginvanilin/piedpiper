@@ -20,17 +20,8 @@ i {
     padding-left: 250px;
     padding-right: 200px;
 }
-/* @media screen and (max-width: 768px) {
-    .header {
-        padding-right: 20px;
-        padding-left: 20px;
-    }
-} */
  
 .header-logo {
-    
-
-    
 }
 .header-logo-img {
 }
@@ -52,6 +43,7 @@ i {
 .jumbotron {
     height: 403px;
     background-image: url("../img/jumbotron.png");
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -93,8 +85,8 @@ i {
 .hero {
     height: 483px;
     background-image: url(../img/hero.png);
+    background-repeat: no-repeat;
     display: flex;
-    
     justify-content: center;
     align-items: center;
 }
@@ -243,4 +235,237 @@ color: #000000;
     color: #FFFFFF;
     text-align: center;
     
+}
+@media screen and (max-width: 1300px) {
+    .header {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+@media screen and (max-width: 1170px) {
+    .header-links-link{
+        font-size: 20px;
+    }
+    .jumbotron-title{
+        font-size: 50px;
+    }
+    .problem-text-container {
+        width: 800px;
+    }
+    .problem{
+        height: 100%;
+        
+    }
+    .problem-title{
+        font-size: 40px;
+    }
+    .problem-text{
+        font-size: 22px;
+    }
+    .hero-title{
+        font-size: 30px;
+        width: 600px;
+    }
+    .ppc{
+        height: 100%;
+        padding-bottom: 28px;
+    }
+    .ppc-text-logo{
+        width: 800px;
+        
+    }
+    .ppc-content-text-first{
+        font-size: 22px;
+    }
+    .ppc-content-text{
+        margin-top: 20px;
+    }
+    .ppc-content-text-second{
+        width: 800px;
+        font-size: 22px;
+        margin-bottom: 20px;
+        line-height: 25px;
+        
+    }
+    .ppc-content-title{
+        font-size: 40px;
+    }
+    .team{
+        height: 100%;
+        padding: 48px 0;
+    }
+    .team-title{
+        font-size: 40px;
+    }
+    
+}
+@media screen and (max-width: 1050px) {
+    .team-cards{
+        justify-content: center;
+    }
+    
+}
+@media screen and (max-width: 860px) {
+    .header-logo-img{
+        width: 160px;
+
+    }
+    .header-links-link{
+        font-size: 18px;
+    }
+    .jumbotron-title{
+        font-size: 40px;
+    }
+    .problem-title{
+        font-size: 35px;
+    }
+    .problem-text-container{
+        width: 600px;
+        padding-bottom: 24px;
+        text-align: center;
+    }
+    .problem-text-container p{
+        font-size: 18px;
+        margin-bottom: 24px;
+        
+    }
+    .ppc{
+        height: 100%;
+        
+    }
+    .ppc-content-title{
+        font-size: 35px;
+    }
+    .ppc-text-logo{
+        width: 600px;
+        
+    }
+    .ppc-logo-img{
+        width: 100px;
+        height: 100px;
+    }
+    .ppc-content-text-first{
+        line-height: 24px;
+        font-weight: normal;
+        font-size: 18px;
+        text-align: justify;
+    }
+    .ppc-content-text{
+        margin-top: 20px;
+    }
+    .ppc-content-text-second{
+        width: 600px;
+        font-weight: normal;
+        font-size: 18px;
+        text-align: justify;
+    }
+    
+    .team-title{
+            font-size: 35px;
+    }
+    .team-cards-card{
+        width: 300px;
+        height: 233px;
+        margin: 20px;
+
+    }
+    .team-cards-card-images-img{
+        width: 140px;
+    }
+    .team-cards-card-text-title{
+        font-size: 18px;
+    }
+    .team-cards-card-text-subtitle{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 630px) {
+    .header-logo-img{
+        width: 130px;
+
+    }
+    .header-links-link{
+        font-size: 16px;
+    }
+    .jumbotron-title{
+        font-size: 35px;
+    }
+    .problem-title{
+        font-size: 30px;
+    }
+    .problem-text{
+    
+    }
+    .problem-text-container{
+        width: 400px;
+    }
+    .problem-text-container p{
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .hero-title{
+        width: 400px;
+        font-size: 28px;
+    }
+    .ppc-text-logo{
+        width: 400px;
+    }
+    .ppc-logo-img{
+        width: 90px;
+        height: 90px;
+    }
+    .ppc-content-text-first{
+        margin-left: 15px;
+        font-size: 16px;
+    }
+    .ppc-content-text-second{
+        width: 400px;
+        font-size: 16px;
+    }
+    .team-cards{
+        margin-top: 16px;
+    }
+    .footer-text{
+        width: 400px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
+@media screen and (max-width: 463px) {
+    .header{
+        height: 124px;
+    }
+    .header-links{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .header-links-divider{
+        display: none;
+    }
+    .problem-text-container{
+        width: 300px;
+    }
+    .hero-title{
+        width: 300px;
+        font-size: 24px;
+    }
+    .ppc-content-title{
+        width: 300px;
+        text-align: center;
+    }
+    .ppc-text-logo{
+        width: 300px;
+    }
+    .ppc-content-text-second{
+        width: 300px;
+    }
+    .team-cards-card{
+        margin: 0px;
+    }
+    .footer-text{
+        width: 300px;
+    }
 }
